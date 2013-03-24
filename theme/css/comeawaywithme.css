@@ -1,0 +1,109 @@
+/*!
+Come Away With Me customization
+Author: Marc-Aurele Brothier
+Licence: MIT
+Inspiration from Focus, Corporatus layouts
+Based on Journal theme for Twitter bootstrap
+*/
+
+body {
+    background: url("../img/bg.png") repeat scroll 0 0 #DDDDDD;
+    font: 14px/1.7em 'Open Sans',arial,sans-serif;
+/*	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	line-height: 20px;*/
+    margin: 0;
+    padding-top:100px;
+}
+
+.navbar .brand {
+	font-size:1.5em;
+}
+
+.brand > small {
+	font-style:italic;
+	font-size:75%;
+}
+
+.navbar-inner .container {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+.navbar .nav {
+    font-size:1.2em;
+}
+
+#welcome {
+    text-align:center;
+}
+
+#masthead {
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+#map {
+	margin-top:30px;
+	margin-bottom:30px;
+}
+
+#content, #article, #page {
+    background-color:#FAFAFA;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.1) inset, 0 1px 10px rgba(0, 0, 0, 0.1);
+    padding-top:2em;
+}
+
+#footer {
+	background-color:#313131;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.5) inset, 0 1px 10px rgba(0, 0, 0, 0.5);
+	color:#eee;
+	padding-top:2em;
+}
+
+#footer dt {
+	font-weight:normal;
+}
+
+.center {
+	text-align:center;
+}
+
+.thumbnail-article {
+	position:relative;
+}
+
+.thumbnail-article .header {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 4px 0 4px 0;
+    color: #9DA0A4;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    top: -1px;
+}
+
+.thumbnail-article .footer {
+    background-color: #F5F5F5;
+    border: 1px solid #DDDDDD;
+    border-radius: 0 4px 0 4px;
+    color: #9DA0A4;
+    font-size: 12px;
+    font-weight: bold;
+    left: -1px;
+    padding: 3px 7px;
+    position: absolute;
+    bottom: -1px;
+}
+
+#content .pagination {
+	margin-bottom:50px;
+}
+
+.carousel-list .item {
+	position:relative;
+	margin-bottom:2em;
+}

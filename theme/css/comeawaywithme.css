@@ -114,3 +114,9 @@ body {
 	position:relative;
 	margin-bottom:2em;
 }
+
+h5.lory {
+	font-weight:normal;
+	font-style:italic;
+	padding-top:1.5em;
+}

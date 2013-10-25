@@ -40,7 +40,7 @@ $(document).ready(function() {
 
 		var mapOptions = {
 			center: new google.maps.LatLng(46.520024, 6.633588), /* Lausanne */
-			zoom: 7,
+			zoom: 2,
 			mapTypeId: google.maps.MapTypeId.TERRAIN,
 			overviewMapControl: true,
 			overviewMapControlOptions: {
